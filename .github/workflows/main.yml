@@ -48,6 +48,7 @@ jobs:
           haxelib install hxcpp > /dev/null
           haxelib install lime
           haxelib install openfl
+          haxelib git extension-androidtools https://github.com/jigsaw-4277821/extension-androidtools.git
           haxelib --never install flixel
           haxelib run lime setup flixel
           haxelib install flixel-tools
