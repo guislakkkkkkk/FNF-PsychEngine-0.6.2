@@ -1,3 +1,30 @@
+Skip to content
+Search or jump to…
+Pulls
+Issues
+Marketplace
+Explore
+ 
+@guislakkkkkkk 
+Its-me-a-guy
+/
+FNF-PsychEngine
+Public
+forked from ShadowMario/FNF-PsychEngine
+Code
+Pull requests
+Actions
+Projects
+Security
+Insights
+FNF-PsychEngine/.github/workflows/main.yml
+@Dxgamer7405
+Dxgamer7405 nois ser burro
+Latest commit 0099fb7 4 hours ago
+ History
+ 5 contributors
+81 lines (68 sloc)  2.37 KB
+
 # This is a basic workflow to help you get started with Actions
 
 name: Android Build
@@ -57,7 +84,6 @@ jobs:
           haxelib install hxCodec
           haxelib git linc_luajit https://github.com/MAJigsaw77/linc_luajit
           haxelib list
-
       - name: Create Version Tag
         run: echo "${{github.run_id}}" > VERSION
 
